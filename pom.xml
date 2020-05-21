@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <properties>
      <scala-library-version>2.11</scala-library-version>
-     <scala-library-subversion>12</scala-library-version>
+     <scala-library-subversion>12</scala-library-subversion>
     </properties>
    
     <dependencies>
