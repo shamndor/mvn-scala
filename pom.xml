@@ -31,7 +31,7 @@
               <execution>
                 <goals>
                   <goal>
-                   Compile
+                   compile
                  </goal>
                 </goals>
             </execution>
