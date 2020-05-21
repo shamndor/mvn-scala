@@ -10,7 +10,7 @@
     <properties>
      <scala-library-version>2.11</scala-library-version>
      <scala-library-subversion>12</scala-library-subversion>
-     <scala-maven-plugin-version>4.4.0</scala-maven-plugin-version>
+     <scala-maven-plugin-version>4.3.1</scala-maven-plugin-version>
     </properties>
    
     <dependencies>
