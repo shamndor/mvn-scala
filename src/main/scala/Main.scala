@@ -9,6 +9,6 @@ def wordCount(str:String):Int = {
     }
 }
 
-def isEmpty(str:String)=> str ==null || str.trim.isEmpty
+def isEmpty(str:String) = str == null || str.trim.isEmpty
 
 }
