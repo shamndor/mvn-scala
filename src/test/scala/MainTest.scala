@@ -1,6 +1,6 @@
 import org.scalatest._
 
-class MainTest Extends FunSuite {
+class MainTest extends FunSuite {
 
    test(testName = "happy scanario") {
 
