@@ -28,6 +28,12 @@
 		<scalatest-maven-plugin-version>
 			2.0.0
 		</scalatest-maven-plugin-version>
+		<maven-compiler-plugin-version>
+			3.8.1
+		</maven-compiler-plugin-version>
+		<maven-surefire-plugin-version>
+			3.0.0-M4
+		</maven-surefire-plugin-version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -100,6 +106,41 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>
+					org.apache.maven.plugins
+				</groupId>
+				<artifactId>
+					maven-compiler-plugin
+				</artifactId>
+				<version>
+					${maven-compiler-plugin-version}
+				</version>
+				<configuration>
+					<skipMain>
+						true
+					</skipMain>
+					<skip>
+						true
+					</skip>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>
+					org.apache.maven.plugins
+				</groupId>
+				<artifactId>
+					maven-surefire-plugin
+				</artifactId>
+				<version>
+					${maven-surefire-plugin-version}
+				</version>
+				<configuration>
+					<skipTests>
+						true
+					</skipTests>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
