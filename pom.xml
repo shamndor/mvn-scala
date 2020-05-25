@@ -11,6 +11,7 @@
      <scala-library-version>2.11</scala-library-version>
      <scala-library-subversion>12</scala-library-subversion>
      <scala-maven-plugin-version>4.3.1</scala-maven-plugin-version>
+     <scalatest-version>3.1.1</scalatest-version>
     </properties>
    
     <dependencies>
@@ -18,7 +19,15 @@
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>${scala-library-version}.${scala-library-subversion}</version>
-        </dependency>    
+        </dependency>   
+        
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_${scala-library-version}</artifactId>
+            <version>${scalatest-version}</version>
+            <scope>test</scope>
+        </dependency>
+ 
     </dependencies>
 
     <build>
@@ -32,6 +41,9 @@
                 <goals>
                   <goal>
                    compile
+                 </goal>
+                 <goal>
+                   testCompile
                  </goal>
                 </goals>
             </execution>
