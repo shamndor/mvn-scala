@@ -177,9 +177,9 @@
 					<minimumCoverage>
 						${scoverage-minimum-treshold}
 					</minimumCoverage>
-					<failOnminimumCoverage>
+					<failOnMinimumCoverage>
 						true
-					</failOnminimumCoverage>
+					</failOnMinimumCoverage>
 					<highlighting>
 						true
 					</highlighting>
