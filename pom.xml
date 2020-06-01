@@ -40,7 +40,9 @@
 		<scoverage-minimum-treshold>
 			80
 		</scoverage-minimum-treshold>
-		 
+		<skipTests>
+			true
+		</skipTests>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -173,7 +175,7 @@
 				</executions>
 				<configuration>
 					<minimumCoverage>
-						 80
+						80
 					</minimumCoverage>
 					<failOnMinimumCoverage>
 						true
@@ -181,9 +183,7 @@
 					<highlighting>
 						true
 					</highlighting>
-					<additionalForKedProjectProperties>
-						skipTests=false
-					</additionalForKedProjectProperties>
+				 
 				</configuration>
 			</plugin>
 		</plugins>
