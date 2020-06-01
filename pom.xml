@@ -34,6 +34,12 @@
 		<maven-surefire-plugin-version>
 			3.0.0-M4
 		</maven-surefire-plugin-version>
+		<scoverage-maven-plugin-version>
+			1.4.1
+		</scoverage-maven-plugin-version>
+		<scoverage-minimum-treshold>
+			100
+		</scoverage-minimum-treshold>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -141,6 +147,39 @@
 						true
 					</skipTests>
 				</configuration>
+			</plugin>
+			<plugin>
+				<dependency>
+					<groupId>
+						org.scoverage
+					</groupId>
+					<artifactId>
+						scoverage-maven-plugin
+					</artifactId>
+					<version>
+						${scoverage-maven-plugin-version}
+					</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>
+									verify
+								</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<minimumCoverage>
+							${scoverage-minimum-treshold}
+						</minimumCoverage>
+						<failOnminimumCoverage>
+							true
+						</failOnminimumCoverage>
+						<highlighting>
+							true
+						</highlighting>
+					</configuration>
+				</dependency>
 			</plugin>
 		</plugins>
 	</build>
