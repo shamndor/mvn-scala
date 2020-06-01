@@ -40,6 +40,7 @@
 		<scoverage-minimum-treshold>
 			100
 		</scoverage-minimum-treshold>
+        <skipTests>true</skipTests>
 	</properties>
 	<dependencies>
 		<dependency>
