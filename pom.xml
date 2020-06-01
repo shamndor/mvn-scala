@@ -163,9 +163,10 @@
 						<execution>
 							<goals>
 								<goal>
-									verify
+									check
 								</goal>
 							</goals>
+                            <phase>verify</phase>
 						</execution>
 					</executions>
 					<configuration>
