@@ -175,7 +175,7 @@
 				</executions>
 				<configuration>
 					<minimumCoverage>
-						${scoverage-minimum-treshold}
+						 80
 					</minimumCoverage>
 					<failOnMinimumCoverage>
 						true
