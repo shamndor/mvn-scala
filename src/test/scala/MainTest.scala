@@ -11,5 +11,5 @@ class MainTest extends FunSuite {
 
        assert(Main.wordCount(null) == 0)
    }
-   println("Scala Sandbox Fail")
+ 
 }
