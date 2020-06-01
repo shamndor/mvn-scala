@@ -149,7 +149,7 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<dependency>
+			 
 					<groupId>
 						org.scoverage
 					</groupId>
@@ -179,7 +179,7 @@
 							true
 						</highlighting>
 					</configuration>
-				</dependency>
+			 
 			</plugin>
 		</plugins>
 	</build>
