@@ -38,7 +38,7 @@
 			1.4.1
 		</scoverage-maven-plugin-version>
 		<scoverage-minimum-treshold>
-			100
+			80
 		</scoverage-minimum-treshold>
 		<skipTests>
 			true
