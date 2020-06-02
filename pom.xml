@@ -99,8 +99,9 @@
 					</execution>
 				</executions>
 				<configuration>
+                    <args>-P:scapegoat:dataDir:/target/site/scapegoat</args>
+
 					<compilerPlugins>
-                      <args>-P:scapegoat:dataDir:/target/site/scapegoat</args>
 						<compilerPlugin>
 							<groupId>
 								com.sksamuel.scapegoat
