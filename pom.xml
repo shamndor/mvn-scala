@@ -288,6 +288,9 @@
 				<artifactId>
 					scoverage-maven-plugin
 				</artifactId>
+                	<version>
+					${scoverage-maven-plugin-version}
+				</version>
 				<reportSets>
 					<reportSet>
 						<reports>
