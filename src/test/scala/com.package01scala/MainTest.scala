@@ -1,4 +1,4 @@
-  
+package com.package01.scala  
 import org.scalatest._
 
 class MainTest extends FunSuite {

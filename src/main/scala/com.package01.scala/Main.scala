@@ -1,5 +1,4 @@
- 
-
+ package com.package01.scala  
 object Main{
 
 def wordCount(str:String):Int = {
