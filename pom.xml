@@ -34,9 +34,18 @@
 		<maven-surefire-plugin-version>
 			3.0.0-M4
 		</maven-surefire-plugin-version>
-		<scoverage-maven-plugin-version>1.4.1</scoverage-maven-plugin-version>
-		<scoverage-minimum-treshold>90</scoverage-minimum-treshold>
-	 
+		<scoverage-maven-plugin-version>
+			1.4.1
+		</scoverage-maven-plugin-version>
+		<scoverage-minimum-treshold>
+			80
+		</scoverage-minimum-treshold>
+		<scalac-scapegoat-plugin-version>
+			1.4.4
+		</scalac-scapegoat-plugin-version>
+		<scalac-scapegoat-plugin-subversion>
+			2.11.12
+		</scalac-scapegoat-plugin-subversion>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -89,6 +98,22 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<compilerPlugins>
+                      <args>P:scapegoat:dataDir:/target/site/scapegoat</args>
+						<compilerPlugin>
+							<groupId>
+								com.sksamuel.scapegoat
+							</groupId>
+							<artifactId>
+								scalac-scapegoat-plugin_${scalac-scapegoat-plugin-subversion}
+							</artifactId>
+							<version>
+								${scalac-scapegoat-plugin-version}
+							</version>
+						</compilerPlugin>
+					</compilerPlugins>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>
@@ -168,16 +193,20 @@
 					</execution>
 				</executions>
 				<configuration>
-					<minimumCoverage>${scoverage-minimum-treshold}</minimumCoverage>
-					<failOnMinimumCoverage>true</failOnMinimumCoverage>
+					<minimumCoverage>
+						${scoverage-minimum-treshold}
+					</minimumCoverage>
+					<failOnMinimumCoverage>
+						true
+					</failOnMinimumCoverage>
 					<highlighting>
 						true
 					</highlighting>
-                   <additionalForKedProjectProperties>skipTests=false</additionalForKedProjectProperties>
-				 
+					<additionalForKedProjectProperties>
+						skipTests=false
+					</additionalForKedProjectProperties>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
 </project>
-
