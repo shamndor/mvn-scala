@@ -170,7 +170,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<minimumCoverage>80</minimumCoverage>
+					<minimumCoverage>70</minimumCoverage>
 					<failOnMinimumCoverage>true</failOnMinimumCoverage>
 					<highlighting>
 						true
@@ -181,3 +181,4 @@
 		</plugins>
 	</build>
 </project>
+
