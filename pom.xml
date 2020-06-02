@@ -258,7 +258,10 @@
 				</version>
 			</plugin>
 		</plugins>
-		<reporting>
+	
+	</build>
+
+    	<reporting>
 			<plugins>
 				<plugin>
 					<groupId>
@@ -282,5 +285,5 @@
 				</plugin>
 			</plugins>
 		</reporting>
-	</build>
+        
 </project>
