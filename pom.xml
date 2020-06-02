@@ -170,11 +170,12 @@
 					</execution>
 				</executions>
 				<configuration>
-					<minimumCoverage>70</minimumCoverage>
+					<minimumCoverage>${scoverage-minimum-treshold}</minimumCoverage>
 					<failOnMinimumCoverage>true</failOnMinimumCoverage>
 					<highlighting>
 						true
 					</highlighting>
+                   <additionalForKedProjectProperties>skipTests=false</additionalForKedProjectProperties>
 				 
 				</configuration>
 			</plugin>
