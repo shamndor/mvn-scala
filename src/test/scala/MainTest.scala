@@ -4,7 +4,7 @@ class MainTest extends FunSuite {
 
    test(testName = "happy scanario") {
 
-       assert(Main.wordCount("Hello World") == 2)
+       assert(Main.wordCount("Hello World") == 3)
    }
 
   test(testName = "Test Count with Null input") {
