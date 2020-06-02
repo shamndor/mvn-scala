@@ -24,7 +24,6 @@
 		</version>
 	</parent>
 	<build>
-	 
 		<sourceDirectory>
 			${basedir}/src/main/scala
 		</sourceDirectory>
@@ -32,61 +31,4 @@
 			${basedir}/src/test/scala
 		</testSourceDirectory>
 	</build>
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>
-					org.apache.maven.plugins
-				</groupId>
-				<artifactId>
-					maven-project-info-reports-plugin
-				</artifactId>
-				<version>
-					${maven-project-info-reports-plugin-version}
-				</version>
-				<reportSets>
-					<reportSet>
-						<reports>
-							<report>
-								index
-							</report>
-						</reports>
-					</reportSet>
-				</reportSets>
-			</plugin>
-			<plugin>
-				<groupId>
-					org.scoverage
-				</groupId>
-				<artifactId>
-					scoverage-maven-plugin
-				</artifactId>
-				<reportSets>
-					<reportSet>
-						<reports>
-							<report>
-								report-only
-							</report>
-						</reports>
-					</reportSet>
-				</reportSets>
-			</plugin>
-			<plugin>
-				<groupId>
-					org.codehaus.mojo
-				</groupId>
-				<artifactId>
-					findbugs-maven-plugin
-				</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>
-					net.alchim31.maven
-				</groupId>
-				<artifactId>
-					scala-maven-plugin
-				</artifactId>
-			</plugin>
-		</plugins>
-	</reporting>
 </project>
