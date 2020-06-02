@@ -19,7 +19,7 @@
 # '' sign
 # ------------------------------------------
 1
-/home/shmandor2009/mvn-scala/src/main/scala/Main.scala
+/home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
 <empty>
 Main
 Object
@@ -36,7 +36,7 @@ false
 Main.this.isEmpty(emp)
 
 2
-/home/shmandor2009/mvn-scala/src/main/scala/Main.scala
+/home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
 <empty>
 Main
 Object
@@ -53,7 +53,7 @@ false
 0
 
 3
-/home/shmandor2009/mvn-scala/src/main/scala/Main.scala
+/home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
 <empty>
 Main
 Object
@@ -70,7 +70,7 @@ false
 "\\W+"
 
 4
-/home/shmandor2009/mvn-scala/src/main/scala/Main.scala
+/home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
 <empty>
 Main
 Object
@@ -87,7 +87,7 @@ false
 input.split("\\W+").length
 
 5
-/home/shmandor2009/mvn-scala/src/main/scala/Main.scala
+/home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
 <empty>
 Main
 Object
@@ -104,7 +104,7 @@ false
 null
 
 6
-/home/shmandor2009/mvn-scala/src/main/scala/Main.scala
+/home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
 <empty>
 Main
 Object
@@ -121,7 +121,7 @@ false
 str.trim().isEmpty()
 
 7
-/home/shmandor2009/mvn-scala/src/main/scala/Main.scala
+/home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
 <empty>
 Main
 Object
