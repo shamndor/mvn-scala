@@ -20,15 +20,15 @@
 # ------------------------------------------
 1
 /home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
-<empty>
+com.package01.scala
 Main
 Object
-Main
+com.package01.scala.Main
 wordCount
-86
-98
-7
-Main.isEmpty
+114
+126
+6
+com.package01.scala.Main.isEmpty
 Apply
 false
 0
@@ -37,14 +37,14 @@ Main.this.isEmpty(emp)
 
 2
 /home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
-<empty>
+com.package01.scala
 Main
 Object
-Main
+com.package01.scala.Main
 wordCount
-102
-103
-7
+130
+131
+6
 <nosymbol>
 Literal
 false
@@ -54,14 +54,14 @@ false
 
 3
 /home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
-<empty>
+com.package01.scala
 Main
 Object
-Main
+com.package01.scala.Main
 wordCount
-143
-149
-8
+171
+177
+7
 <nosymbol>
 Literal
 false
@@ -71,14 +71,14 @@ false
 
 4
 /home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
-<empty>
+com.package01.scala
 Main
 Object
-Main
+com.package01.scala.Main
 wordCount
-131
-157
-8
+159
+185
+7
 scala.Array.length
 Select
 false
@@ -88,14 +88,14 @@ input.split("\\W+").length
 
 5
 /home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
-<empty>
+com.package01.scala
 Main
 Object
-Main
+com.package01.scala.Main
 isEmpty
-206
-210
-13
+234
+238
+12
 <nosymbol>
 Literal
 false
@@ -105,14 +105,14 @@ null
 
 6
 /home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
-<empty>
+com.package01.scala
 Main
 Object
-Main
+com.package01.scala.Main
 isEmpty
-214
-230
-13
+242
+258
+12
 java.lang.String.isEmpty
 Apply
 false
@@ -122,14 +122,14 @@ str.trim().isEmpty()
 
 7
 /home/shmandor2009/mvn-scala/src/main/scala/com.package01.scala/Main.scala
-<empty>
+com.package01.scala
 Main
 Object
-Main
+com.package01.scala.Main
 isEmpty
-199
-230
-13
+227
+258
+12
 scala.Boolean.||
 Apply
 false
