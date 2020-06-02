@@ -53,7 +53,7 @@
 			3.9.0
 		</maven-site-plugin-version>
 		<maven-project-info-reports-plugin-version>
-			3.1.0
+			3.0.0
 		</maven-project-info-reports-plugin-version>
 	</properties>
 	<dependencies>
