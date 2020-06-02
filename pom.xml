@@ -46,6 +46,9 @@
 		<scalac-scapegoat-plugin-subversion>
 			2.11.12
 		</scalac-scapegoat-plugin-subversion>
+		<findbugs-maven-plugin-version>
+			3.0.5
+		</findbugs-maven-plugin-version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -208,6 +211,34 @@
 						skipTests=false
 					</additionalForKedProjectProperties>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>
+					org.codehaus.mojo
+				</groupId>
+				<artifactId>
+					findbugs-maven-plugin
+				</artifactId>
+				<version>
+					${findbugs-maven-plugin-version}
+				</version>
+				<configuration>
+					<effort>
+						Max
+					</effort>
+					<threshold>
+						High
+					</threshold>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>
+								check
+							</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
