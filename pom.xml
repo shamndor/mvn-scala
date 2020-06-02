@@ -12,50 +12,17 @@
 	<version>
 		1.0-SNAPSHOT
 	</version>
-	<properties>
-		<scala-library-version>
-			2.11
-		</scala-library-version>
-		<scala-library-subversion>
-			12
-		</scala-library-subversion>
-		<scala-maven-plugin-version>
-			4.3.1
-		</scala-maven-plugin-version>
-		<scalatest-version>
-			3.1.1
-		</scalatest-version>
-		<scalatest-maven-plugin-version>
-			2.0.0
-		</scalatest-maven-plugin-version>
-		<maven-compiler-plugin-version>
-			3.8.1
-		</maven-compiler-plugin-version>
-		<maven-surefire-plugin-version>
-			3.0.0-M4
-		</maven-surefire-plugin-version>
-		<scoverage-maven-plugin-version>
-			1.4.1
-		</scoverage-maven-plugin-version>
-		<scoverage-minimum-treshold>
-			80
-		</scoverage-minimum-treshold>
-		<scalac-scapegoat-plugin-version>
-			1.4.4
-		</scalac-scapegoat-plugin-version>
-		<scalac-scapegoat-plugin-subversion>
-			2.11.12
-		</scalac-scapegoat-plugin-subversion>
-		<findbugs-maven-plugin-version>
-			3.0.5
-		</findbugs-maven-plugin-version>
-		<maven-site-plugin-version>
-			3.9.0
-		</maven-site-plugin-version>
-		<maven-project-info-reports-plugin-version>
-			3.0.0
-		</maven-project-info-reports-plugin-version>
-	</properties>
+	<parent>
+		<groupId>
+			org.example
+		</groupId>
+		<artifactId>
+			scala-starter-parent
+		</artifactId>
+		<version>
+			1.0-SNAPSHOT
+		</version>
+	</parent>
 	<dependencies>
 		<dependency>
 			<groupId>
@@ -307,6 +274,14 @@
 				</groupId>
 				<artifactId>
 					findbugs-maven-plugin
+				</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>
+					net.alchim31.maven
+				</groupId>
+				<artifactId>
+					scala-maven-plugin
 				</artifactId>
 			</plugin>
 		</plugins>
