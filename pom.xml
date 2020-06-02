@@ -35,7 +35,7 @@
 			3.0.0-M4
 		</maven-surefire-plugin-version>
 		<scoverage-maven-plugin-version>1.4.1</scoverage-maven-plugin-version>
-		<scoverage-minimum-treshold>80</scoverage-minimum-treshold>
+		<scoverage-minimum-treshold>90</scoverage-minimum-treshold>
 	 
 	</properties>
 	<dependencies>
