@@ -258,6 +258,8 @@
 				</version>
 			</plugin>
 		</plugins>
+
+         <sourceDirectory>${basedir}/src/main/scala</sourceDirectory>
 	</build>
 	<reporting>
 		<plugins>
