@@ -23,12 +23,5 @@
 			1.0-SNAPSHOT
 		</version>
 	</parent>
-	<build>
-		<sourceDirectory>
-			${basedir}/src/main/scala
-		</sourceDirectory>
-		<testSourceDirectory>
-			${basedir}/src/test/scala
-		</testSourceDirectory>
-	</build>
+	 
 </project>
