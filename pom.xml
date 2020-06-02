@@ -258,8 +258,9 @@
 				</version>
 			</plugin>
 		</plugins>
-
-         <sourceDirectory>${basedir}/src/main/scala</sourceDirectory>
+		<sourceDirectory>
+			${basedir}/src/main/scala
+		</sourceDirectory>
 	</build>
 	<reporting>
 		<plugins>
@@ -290,7 +291,6 @@
 				<artifactId>
 					scoverage-maven-plugin
 				</artifactId>
-                 
 				<reportSets>
 					<reportSet>
 						<reports>
@@ -300,6 +300,14 @@
 						</reports>
 					</reportSet>
 				</reportSets>
+			</plugin>
+			<plugin>
+				<groupId>
+					org.codehaus.mojo
+				</groupId>
+				<artifactId>
+					findbugs-maven-plugin
+				</artifactId>
 			</plugin>
 		</plugins>
 	</reporting>
