@@ -9,7 +9,8 @@ object Main{
 */
 def wordCount(str:String):Int = {
     str match{
-        case emp if isEmpty(emp) => 0      
+        case emp if isEmpty(emp) => 0 
+          
         case input=> input.split("\\W+").length
     }
      
